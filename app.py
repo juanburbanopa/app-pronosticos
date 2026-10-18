@@ -80,13 +80,13 @@ st.set_page_config(page_title="Herramienta Pronósticos S&OP", layout="wide")
 
 # =========================================================================
 # 🔻🔻🔻 PEGA AQUÍ TUS FUNCIONES MATEMÁTICAS (Bloques 2 al 9 de Colab) 🔻🔻🔻
-=========================================================
-BLOQUE 2 — MÉTRICAS DE ERROR
-=========================================================
-Cálculo estandarizado de métricas para evaluar la precisión
+#=========================================================
+#BLOQUE 2 — MÉTRICAS DE ERROR
+#=========================================================
+#Cálculo estandarizado de métricas para evaluar la precisión
 de los modelos de pronóstico.
 Convención de error utilizada: e_t = F_t - D_t
-"""
+#"""
 
 import numpy as np
 from typing import List, Dict, Union
